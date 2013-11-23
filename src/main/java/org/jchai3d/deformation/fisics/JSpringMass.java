@@ -69,7 +69,6 @@ public class JSpringMass implements IDeformation {
         return (M);
     }
 
-    @Override
     public JMesh processDeformation(float time_pass, JMesh jMesh) {
 
         //F = k.X
@@ -111,12 +110,10 @@ public class JSpringMass implements IDeformation {
         return null;
     }
 
-    @Override
     public void setVelocidade(JVector3d velocidade) {
         this.oldVelocidade = velocidade;
     }
 
-    @Override
     public void setTriangulosVizinhos(JTriangle triangle) {
         this.triangle = triangle;
     }

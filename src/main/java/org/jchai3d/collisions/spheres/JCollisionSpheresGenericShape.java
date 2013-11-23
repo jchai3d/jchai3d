@@ -54,7 +54,6 @@ public abstract class JCollisionSpheresGenericShape implements Comparable<JColli
         this.sphere = sphere;
     }
 
-    @Override
     public int compareTo(JCollisionSpheresGenericShape other) {
         if((getCenter().get(split) < other.getCenter().get(split))) {
             return -1;

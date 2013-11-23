@@ -579,7 +579,6 @@ public class JTriangle implements Comparable<JTriangle> {
         this.index = mIndex;
     }
 
-    @Override
     public int compareTo(JTriangle aTriangle) {
 
         sortTriangle(aTriangle);

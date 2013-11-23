@@ -1411,7 +1411,6 @@ class VertexIndexSet implements Comparable<VertexIndexSet> {
         nIndex = tIndex = 0;
     }
 
-    @Override
     public int compareTo(VertexIndexSet v2) {
         if (vIndex < v2.vIndex) {
             return 1;

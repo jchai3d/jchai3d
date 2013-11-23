@@ -4,14 +4,13 @@
  */
 package org.jchai3d.deformation;
 
-import org.jchai3d.forces.JProxyPointForceAlgo;
 import org.jchai3d.graphics.JTriangle;
 import org.jchai3d.math.JVector3d;
 import org.jchai3d.scenegraph.JMesh;
 
 /**
  *
- * @author T315443
+ * @author Jairo Melo <jairossmunb@gmail.com>
  */
 public interface IDeformation {
         

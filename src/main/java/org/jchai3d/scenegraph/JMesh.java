@@ -2123,7 +2123,6 @@ class TriangleSort implements Comparator<JTriangle> {
      * @return positive value, t1.vertex.x < t2.vertex.x; zero, if t1.vertex.x
      * == t2.vertex.x; negative value if t1.vertex.x > t2.vertex.x
      */
-    @Override
     public int compare(JTriangle t1, JTriangle t2) {
         return (int) (t2.getVertex(vertex).getPosition().x - t1.getVertex(vertex).getPosition().x);
     }

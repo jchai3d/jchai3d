@@ -608,7 +608,7 @@ public class JViewport implements GLEventListener {
      * System.out.println(getInfoOpengl());
     }
      */
-    @Override
+    
     public void init(GLAutoDrawable aWinHandle) {
 
         // Use debug pipeline
@@ -647,7 +647,7 @@ public class JViewport implements GLEventListener {
         updateFPS();
     }
 
-    @Override
+    
     public void display(GLAutoDrawable aWinHandle) {
         /**
          * Updates FPS information
@@ -665,7 +665,7 @@ public class JViewport implements GLEventListener {
         startSimulation = true;
     }
 
-    @Override
+    
     public void reshape(GLAutoDrawable aWinHandle, int x, int y, int width, int height) {
         activeRenderingArea.setLeft(x);
         activeRenderingArea.setBottom(y);
@@ -739,7 +739,7 @@ public class JViewport implements GLEventListener {
         labelFPS.setVisible(v);
     }
 
-    @Override
+    
     public void dispose(GLAutoDrawable glad) {
         
     }

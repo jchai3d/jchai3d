@@ -29,28 +29,23 @@ import org.jchai3d.scenegraph.JMesh;
  */
 public class JLem implements IDeformation {
 
-    @Override
-    public JMesh processDeformation(float time_pass, JMesh jMesh) {
-        return null;
-    }
+	public JMesh processDeformation(float time_pass, JMesh jMesh) {
+		return null;
+	}
 
-    @Override
-    public void setPosicao(JVector3d posicao) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public void setPosicao(JVector3d posicao) {
+		throw new UnsupportedOperationException("Not supported yet.");
+	}
 
-    @Override
-    public void setForca(JVector3d forca) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-    
-    @Override
-    public void setVelocidade(JVector3d velocidade) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public void setForca(JVector3d forca) {
+		throw new UnsupportedOperationException("Not supported yet.");
+	}
 
-    @Override
-    public void setTriangulosVizinhos(JTriangle triangle) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public void setVelocidade(JVector3d velocidade) {
+		throw new UnsupportedOperationException("Not supported yet.");
+	}
+
+	public void setTriangulosVizinhos(JTriangle triangle) {
+		throw new UnsupportedOperationException("Not supported yet.");
+	}
 }
