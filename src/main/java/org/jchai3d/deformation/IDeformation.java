@@ -1,0 +1,27 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.jchai3d.deformation;
+
+import org.jchai3d.forces.JProxyPointForceAlgo;
+import org.jchai3d.graphics.JTriangle;
+import org.jchai3d.math.JVector3d;
+import org.jchai3d.scenegraph.JMesh;
+
+/**
+ *
+ * @author T315443
+ */
+public interface IDeformation {
+        
+    public void setVelocidade(JVector3d velocidade);
+    
+    public void setPosicao(JVector3d posicao);
+    
+    public void setForca(JVector3d forca);
+    
+    public void setTriangulosVizinhos(JTriangle triangle);
+    
+    public JMesh processDeformation(float time_pass, JMesh jMesh);
+}

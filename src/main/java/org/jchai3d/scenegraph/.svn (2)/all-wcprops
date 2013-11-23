@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jchai3d/!svn/ver/703/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph
+END
+JChaiRenderMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/jchai3d/!svn/ver/631/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JChaiRenderMode.java
+END
+JCamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JCamera.java
+END
+JShapeTorus.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/jchai3d/!svn/ver/631/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JShapeTorus.java
+END
+JLight.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JLight.java
+END
+JGenericObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JGenericObject.java
+END
+JShapeLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JShapeLine.java
+END
+JWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JWorld.java
+END
+JMesh.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JMesh.java
+END
+JShapeSphere.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/jchai3d/!svn/ver/644/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JShapeSphere.java
+END
+JGenericShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/jchai3d/!svn/ver/681/jChai3D/netbeans-project/trunk/jChai3D/src/org/jchai3d/scenegraph/JGenericShape.java
+END
