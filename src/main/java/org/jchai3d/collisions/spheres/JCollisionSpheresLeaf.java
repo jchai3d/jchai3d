@@ -15,8 +15,8 @@
  */
 package org.jchai3d.collisions.spheres;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.collisions.JCollisionRecorder;
 import org.jchai3d.collisions.JCollisionSettings;
 import org.jchai3d.graphics.JDraw3D;

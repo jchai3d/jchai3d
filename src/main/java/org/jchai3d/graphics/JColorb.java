@@ -17,7 +17,7 @@
 
 package org.jchai3d.graphics;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 
 /**
  * JColorb describes a color composed of 4 \e bytes.

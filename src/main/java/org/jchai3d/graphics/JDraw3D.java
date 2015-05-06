@@ -17,11 +17,11 @@
 package org.jchai3d.graphics;
 
 import java.nio.FloatBuffer;
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
-import javax.media.opengl.glu.GLU;
-import javax.media.opengl.glu.GLUquadric;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
+import com.jogamp.opengl.glu.GLU;
+import com.jogamp.opengl.glu.GLUquadric;
 import org.jchai3d.math.JMaths;
 import org.jchai3d.math.JVector3d;
 

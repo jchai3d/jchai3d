@@ -17,7 +17,7 @@
 
 package org.jchai3d.graphics;
 
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.math.JMaths;
 
 /**

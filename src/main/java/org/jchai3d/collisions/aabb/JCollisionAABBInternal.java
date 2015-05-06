@@ -15,7 +15,7 @@
  */
 package org.jchai3d.collisions.aabb;
 
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.collisions.JCollisionRecorder;
 import org.jchai3d.collisions.JCollisionSettings;
 import org.jchai3d.math.JVector3d;

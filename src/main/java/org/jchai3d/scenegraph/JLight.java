@@ -19,9 +19,9 @@ package org.jchai3d.scenegraph;
  */
 
 import java.nio.FloatBuffer;
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.graphics.JColorf;
 import org.jchai3d.math.JMaths;
 import org.jchai3d.math.JVector3d;

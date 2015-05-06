@@ -15,8 +15,8 @@
  */
 package org.jchai3d.widgets;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.graphics.JColorf;
 import org.jchai3d.scenegraph.JChaiRenderMode;
 import org.jchai3d.scenegraph.JGenericObject;

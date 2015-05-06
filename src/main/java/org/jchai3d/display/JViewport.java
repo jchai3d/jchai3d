@@ -17,8 +17,8 @@ package org.jchai3d.display;
 
 import java.nio.DoubleBuffer;
 import java.nio.IntBuffer;
-import javax.media.opengl.*;
-import javax.media.opengl.glu.GLU;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.GLU;
 import org.jchai3d.collisions.JCollisionRecorder;
 import org.jchai3d.collisions.JCollisionSettings;
 import org.jchai3d.graphics.JTriangle;
@@ -148,8 +148,10 @@ public class JViewport implements GLEventListener {
         // If we're using the whole window, see whether the window has
         // changed size...
         if (forceRenderArea.getLeft() == -1) {
-            int width = drawable.getWidth();
-            int height = drawable.getHeight();
+            //int width = drawable.getWidth();
+            //int height = drawable.getHeight();
+            int width = drawable.getSurfaceWidth();
+            int height = drawable.getSurfaceHeight();
 
             if ((activeRenderingArea.getLeft() != 0)
                     || (activeRenderingArea.getBottom() != 0)
@@ -267,12 +269,14 @@ public class JViewport implements GLEventListener {
     //! Get height of active viewport area.
     public final int getHeight() {
 
-        return (drawable.getHeight());
+        //return (drawable.getHeight());
+        return (drawable.getSurfaceHeight());
     }
 
     //! Get width of active viewport area.
     public final int getWidth() {
-        return (drawable.getWidth());
+        //return (drawable.getWidth());
+        return (drawable.getSurfaceWidth());
     }
 
     //! Set the camera through which this viewport will be rendered.
@@ -332,8 +336,10 @@ public class JViewport implements GLEventListener {
         }
 
         // compute width and height of rendering area in scene
-        int width = drawable.getWidth();
-        int height = drawable.getHeight();
+        //int width = drawable.getWidth();
+        //int height = drawable.getHeight();
+        int width = drawable.getSurfaceWidth();
+        int height = drawable.getSurfaceHeight();
 
         // apply some default collision settings in none have been specified
         JCollisionSettings collisionSettings = new JCollisionSettings();
