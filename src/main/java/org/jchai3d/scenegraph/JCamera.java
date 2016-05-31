@@ -16,10 +16,10 @@
 package org.jchai3d.scenegraph;
 
 import java.nio.DoubleBuffer;
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
-import javax.media.opengl.glu.GLU;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
+import com.jogamp.opengl.glu.GLU;
 import org.jchai3d.collisions.JCollisionRecorder;
 import org.jchai3d.collisions.JCollisionSettings;
 import org.jchai3d.graphics.JColorf;

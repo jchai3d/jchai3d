@@ -19,9 +19,9 @@ import java.nio.DoubleBuffer;
 import java.nio.FloatBuffer;
 import java.util.ArrayList;
 import java.util.Iterator;
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.collisions.JCollisionRecorder;
 import org.jchai3d.collisions.JCollisionSettings;
 import org.jchai3d.collisions.JGenericCollision;
@@ -1928,11 +1928,13 @@ public class JGenericObject extends JGenericType {
      * @param aObject
      */
     public void addChild(JGenericObject aObject) {
-        // update the child object's parent pointer
-        aObject.setParent(this);
+        if (aObject != null) {
+            // update the child object's parent pointer
+            aObject.setParent(this);
 
-        // add this child to my list of children
-        childrens.add(aObject);
+            // add this child to my list of children
+            childrens.add(aObject);
+        }
     }
 
     /**

@@ -17,9 +17,9 @@
 package org.jchai3d.tools;
 
 import java.nio.FloatBuffer;
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLContext;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLContext;
 import org.jchai3d.devices.JGenericHapticDevice;
 import org.jchai3d.forces.JInteractionEvent;
 import org.jchai3d.forces.JPotentialFieldForceAlgo;

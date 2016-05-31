@@ -17,7 +17,7 @@
 package org.jchai3d.scenegraph;
 
 import com.jogamp.opengl.util.gl2.GLUT;
-import javax.media.opengl.glu.GLU;
+import com.jogamp.opengl.glu.GLU;
 
 /**
  * <p>Since that in Java we need to have objects for noth GLU and GLUT, this
